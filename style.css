@@ -267,11 +267,16 @@ button {
 }
 
 .project-box {
+    flex: 1;
     text-align: center;
     padding: 40px;
     border-right: 1px solid #C4C4C480;
     min-width: 240px;
     margin-inline: auto;
+}
+
+.project-box:last-child {
+    border-right: none;
 }
 
 .project-box h4 {
@@ -653,6 +658,14 @@ footer {
 
     footer {
         padding: 56px 50px;
+    }
+
+    .project-plan {
+        gap: 30px;
+    }
+
+    .project-box {
+        border: none;
     }
 }
 
